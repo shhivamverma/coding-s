@@ -1,7 +1,7 @@
 import java.util.*;
-class bitm1
-{
-    public static void main(String args[])
+class bitm1                                                          // Enter a number 
+{                                                                    // n=5;
+    public static void main(String args[])                           // No. of 1's = 2
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number");
@@ -17,4 +17,5 @@ class bitm1
         }
         System.out.println("No. of 1s ="+c);
     }
+
 }
